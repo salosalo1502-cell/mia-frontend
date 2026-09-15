@@ -1,0 +1,1781 @@
+.womansImage img{
+
+width:100% ;
+
+height:430px ;
+
+
+}
+
+.womansCollectionImages{
+
+width: 100%;
+
+display: flex;
+
+justify-content: center;
+gap:50px ;
+
+padding-top:50px ;
+margin-top:50px ;
+
+background-color:#D8D1C6 ;
+
+
+
+
+
+
+}
+
+.womansCollectionImages img{
+
+width: 200px;
+
+height: 250px;
+
+
+
+
+
+}
+
+
+
+
+
+.womansImage {
+  position: relative;
+  overflow: hidden;
+}
+
+.womansImage::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(8, 8, 4, 0.05) 0%,
+    rgba(8, 8, 4, 0.18) 55%,
+    rgba(8, 8, 4, 0.34) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+
+.womansImage img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.shopCategory{
+
+width: 100%;
+
+
+display:flex;
+
+flex-direction: column;
+
+align-items: center;
+
+gap:10px;
+padding-top:60px ;
+
+
+}
+
+.shopCategory h3{
+
+font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+
+font-size:30px ;
+
+color: #3A3030;
+
+
+
+
+
+}
+.shopCategory p{
+
+font-size:13px ;
+
+font-weight: 700;
+
+
+color:#660507;
+
+
+}
+
+.shopCategory h5 {
+
+font-size:13px ;
+
+width:500px ;
+
+margin: 0 auto;
+
+font-weight:700 ;
+
+color:#660507;
+
+letter-spacing:1px ;
+
+line-height: 1.8em;
+
+
+}
+
+.pojsxblock{
+
+display: flex;
+
+flex-direction: column;
+
+gap:10px ;
+
+ 
+
+
+}
+
+.wievProductTerxt{
+
+outline:2px solid red ;
+
+width:400px ;
+
+}
+
+
+
+.pojsxblock p{
+
+
+
+margin-top: 10px;
+font-size:13 ;
+
+font-size:13px ;
+
+font-weight: 700;
+
+
+color:#660507;
+
+line-height:1.5em ;
+
+
+
+
+
+
+}
+
+.pojsxblock h3{
+
+
+
+
+color: #3A3030;
+
+
+
+}
+
+
+.pojaxIcon img{
+
+
+    width:20px ;
+    height:20px ;
+}
+
+.pojaxIcon{
+display: flex;
+
+gap:10px;
+
+align-items: center;
+
+padding-top: 10px;
+
+
+}
+.pojaxIcon p{
+
+font-size:18px ;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.womansLinear {
+  background: #660507;
+  width: 55px;
+  height: 1px;
+  display: block;
+}
+
+
+.CatetedLiving{
+width: 100%;
+
+display: flex;
+
+flex-direction:column ;
+justify-content: center;
+align-items: center;
+
+padding-top:60px ;
+
+gap:15px ;
+
+
+
+
+
+}
+
+.CatetedLiving p{
+
+width:400px ;
+
+
+font-size:13 ;
+
+font-weight: 700;
+
+color:#660507;
+
+margin: 0 auto;
+text-align: center;
+
+
+
+
+}
+
+
+.CatetedLiving h3{
+
+font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+
+font-size:28px ;
+
+color: #3A3030;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.CatetedLivingImages{
+
+width: 100%;
+
+display: flex;
+
+justify-content: center;
+
+gap:40px ;
+
+
+padding-top: 40px;
+
+background-color:#D8D1C6 ;
+
+margin-top: 50px;
+
+
+
+
+}
+
+
+
+.CatetedLivingImages img{
+
+width:180px ;
+
+height: 250px;
+
+
+
+
+
+}
+
+.shorenContainer{
+
+display: flex;
+flex-direction: column;
+
+
+
+gap:20px ;
+
+justify-content: center;
+
+margin:o auto ;
+
+
+
+}
+.shorensFlex{
+display:flex ;
+
+gap: 70px;
+align-items: center;
+
+
+width: 100%;
+
+padding:10px 10px ;
+
+
+}
+
+.shorenContainer p{
+
+font-weight: 700;
+
+
+
+}
+
+.prices{
+
+
+color:#660507;
+
+}
+
+
+
+.shorensFlex img{
+width:30px;
+
+height:20px ;
+
+
+
+
+
+}
+
+.viewAllBatton{
+
+
+display: block;
+  width:400px ;
+  
+  padding: 15px 20px;
+  font-size: 16px;
+  
+  
+  border: none;
+   background-color: #670508;
+color: #ffffff;
+
+
+
+  cursor: pointer;
+ font-family: "Old Standard TT", serif;
+  font-weight:700;
+  font-style: normal;
+
+  
+cursor: pointer;
+
+transition: 0.35s ease; 
+ 
+  
+   
+margin:0 auto ;
+margin-top: 40px;
+
+
+}
+
+
+
+
+.viewAllBatton:hover {
+ background-color:#AAAFB3;
+ color:#252525;
+  
+}
+
+.purpose{
+
+display: flex;
+
+flex-direction: column;
+
+
+background-color:#F6F3EC;
+
+padding-top: 30px;
+font-family: "Old Standard TT", serif;
+
+
+}
+
+.purposeHerro{
+
+width:100% ;
+
+
+
+text-align: center;
+
+padding:40px 40px;
+
+font-size: 22px;
+
+font-weight:100 ;
+
+}
+.surpouseLinear {
+  display: block;
+  width: 200px;
+  height: 1px;
+  background-color: #660507;
+
+margin: 0 auto;
+
+margin-top: 15px;
+
+}
+
+.miasButtom{
+
+text-align: center;
+
+
+}
+
+.purpose img{
+
+width:30px ;
+height:35px ;
+
+
+}
+.purpose p{
+
+font-size:13px ;
+
+font-weight: 700;
+
+color:#660507;
+
+text-transform: lowercase;
+
+
+
+}
+.purpose h5{
+
+
+font-family: "Old Standard TT", serif;
+
+
+
+} 
+
+.purposeContainer{
+
+width: 100%;
+
+display: flex;
+background-color:#EBE3DC ;
+justify-content: center;
+padding: 30px 30px ;
+
+
+gap:70px;
+
+margin:0 auto ;
+
+line-height: 1.5em;
+
+
+}
+
+
+
+
+
+
+
+ .purposeTwo{
+
+width: 400px;
+
+display: flex;
+flex-direction: column;
+
+
+
+
+ }
+
+
+
+.purposeFirst h3{
+
+font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+
+font-size:28px ;
+
+color: #3A3030;
+
+
+}
+.purposeFirst{
+
+display: flex;
+
+flex-direction: column;
+
+gap:10px;
+
+padding:0px 30px ;
+
+
+
+
+
+}
+
+.purposeFirst p{
+
+width: 400px ;
+
+
+
+
+}
+
+.womansLinear{
+
+text-align: center;
+width: 200px;
+
+}
+
+
+
+.lineContainer{
+
+margin-top: 20px;
+
+
+}
+
+
+
+
+
+.sectinMia img{
+
+width: 100%;
+
+height:450px ;
+
+margin:0 auto ;
+
+
+
+
+
+}
+
+
+
+.miasContainer{
+width: 100%;
+margin-top: 50px;
+
+position: relative;
+
+
+
+}
+
+.overContainers{
+
+display:flex ;
+
+flex-direction: column;
+
+justify-content: center;
+
+align-items: flex-start;
+position: absolute;
+
+inset: 0;
+
+
+gap:40px;
+
+ padding:0px 150px;
+
+
+
+}
+
+.overContainers p{
+
+font-size:13px ;
+
+font-weight: 700;
+
+color:#660507;
+
+text-transform: uppercase;
+
+
+
+}
+
+.overContainers h3{
+
+
+font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+
+font-size:28px ;
+
+color: #3A3030;
+
+width:500px ;
+
+
+
+}
+
+.miasButtom{
+display: block;
+  width:400px ;
+  
+  padding: 15px 20px;
+  font-size: 16px;
+  
+  
+  border: none;
+   background-color: #670508;
+color: #ffffff;
+
+
+
+  cursor: pointer;
+ font-family: "Old Standard TT", serif;
+  font-weight:700;
+  font-style: normal;
+
+  
+cursor: pointer;
+
+transition: 0.35s ease; 
+ 
+  
+}
+
+
+
+
+
+
+
+
+
+.miasButtom:hover {
+ background-color:#AAAFB3;
+ color:#252525;
+  
+}
+
+/* =====================================================
+   WOMAN'S COLLECTION — RESPONSIVE
+===================================================== */
+
+
+/* =========================
+   TABLET
+   1024px
+========================= */
+/* =========================================================
+   WOMAN'S COLLECTION
+   RESPONSIVE
+========================================================= */
+
+
+/* =========================================================
+   TABLET — 1024px
+========================================================= */
+/* მშობელი კონტეინერი (ბადე) */
+
+
+
+
+
+
+
+
+
+
+
+
+.womansCollectionImages {
+
+width:100% ;
+display: flex;
+  
+ 
+justify-content: center;
+
+  margin-top: 50px;
+
+
+}
+
+
+
+.womansContainer{
+
+width:1200px ;
+
+ 
+margin:0 auto ;
+
+
+
+display: flex;
+
+justify-content: center;
+
+gap:80px ;
+
+
+
+}
+
+.pojsxblock{
+
+
+
+width: 200px;
+
+
+
+
+}
+
+.wievProduct{
+
+display: flex;
+
+align-items: center;
+gap:10px ;
+
+padding:5px 5px ;
+
+margin-top: auto;
+
+
+}
+
+.wievProduct p{
+
+color:black;
+
+
+
+}
+
+
+
+.airs{
+
+align-self:flex-end;
+
+margin-top:10px;
+
+
+}
+
+
+
+
+
+
+.pojsxblock > img {
+  width: 200px;
+  height: 280px;
+  object-fit: cover;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .womansCollectionImages {
+    flex-wrap: wrap;
+    gap: 30px 15px;
+    padding: 0 20px;
+  }
+
+
+  .pojsxblock {
+    width: calc(50% - 8px);
+  }
+
+
+  .pojsxblock > img {
+    height: 260px;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .pojsxblock {
+    width: 100%;
+  }
+
+
+  .pojsxblock > img {
+    height: 320px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+  /* HERO IMAGE */
+
+  .womansImage img {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+  }
+
+
+  /* COLLECTION IMAGES */
+
+  .womansCollectionImages {
+    gap: 20px;
+    padding: 40px 20px 20px;
+  }
+
+  .womansCollectionImages img {
+    width: 180px;
+    height: 230px;
+    object-fit: cover;
+  }
+
+
+  /* SHOP CATEGORY */
+
+  .shopCategory {
+    padding: 50px 20px 0;
+  }
+
+  .shopCategory h3 {
+    font-size: 28px;
+  }
+
+  .shopCategory h5 {
+    width: 80%;
+    max-width: 450px;
+  }
+
+
+  /* POJSX */
+
+  .pojsxblock p {
+    width: 80%;
+    max-width: 350px;
+  }
+
+  .pojaxIcon img {
+    width: 18px;
+    height: 18px;
+  }
+
+
+  /* CATEATED LIVING */
+
+  .CatetedLiving {
+    padding: 50px 20px 0;
+  }
+
+  .CatetedLiving p {
+    width: 80%;
+    max-width: 400px;
+  }
+
+  .CatetedLiving h3 {
+    font-size: 27px;
+  }
+
+
+  /* LIVING IMAGES */
+
+  .CatetedLivingImages {
+    gap: 15px;
+    padding: 35px 20px 20px;
+  }
+
+  .CatetedLivingImages img {
+    width: 160px;
+    height: 230px;
+    object-fit: cover;
+  }
+
+
+  /* SHOREN */
+
+  .shorensFlex {
+    gap: 45px;
+  }
+
+  .shorensFlex img {
+    width: 27px;
+    height: 18px;
+  }
+
+
+  /* BUTTON */
+
+  .viewAllBatton {
+    width: 70%;
+    max-width: 400px;
+  }
+
+
+  /* PURPOSE */
+
+  .purposeContainer {
+    gap: 40px;
+    padding: 50px 30px;
+  }
+
+  .purposeFirst {
+    width: 50%;
+    padding: 0 15px;
+  }
+
+  .purposeFirst p {
+    width: 100%;
+  }
+
+  .purposeTwo {
+    width: 40%;
+  }
+
+
+  /* MIA */
+
+  .sectinMia img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+  }
+
+  .overContainers {
+    padding: 0 80px;
+  }
+
+  .overContainers h3 {
+    width: 450px;
+  }
+
+  .miasButtom {
+    width: 350px;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE — 768px
+========================================================= */
+
+@media (max-width: 768px) {
+
+
+  /* =======================================================
+     WOMAN HERO
+  ======================================================= */
+
+  .womansImage {
+    width: 100%;
+  }
+
+  .womansImage img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+  }
+
+
+  /* =======================================================
+     WOMAN COLLECTION IMAGES
+  ======================================================= */
+
+  .womansCollectionImages {
+
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    justify-items: center;
+
+    gap: 15px;
+
+    padding: 30px 15px 20px;
+
+    margin-top: 30px;
+  }
+
+  .womansCollectionImages img {
+
+    width: 145px;
+    height: 195px;
+
+    object-fit: cover;
+  }
+
+
+  /* =======================================================
+     SHOP CATEGORY
+  ======================================================= */
+
+  .shopCategory {
+
+    width: 100%;
+
+    padding: 40px 15px 0;
+
+    gap: 8px;
+
+    text-align: center;
+  }
+
+  .shopCategory h3 {
+
+    font-size: 24px;
+
+    line-height: 1.2em;
+  }
+
+  .shopCategory p {
+
+    font-size: 12px;
+
+    line-height: 1.5em;
+  }
+
+  .shopCategory h5 {
+
+    width: 100%;
+    max-width: 450px;
+
+    font-size: 12px;
+
+    line-height: 1.7em;
+  }
+
+
+  /* =======================================================
+     POJSX BLOCK
+  ======================================================= */
+
+  .pojsxblock {
+
+    width: 100%;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 0 15px;
+  }
+
+  .pojsxblock p {
+
+    width: 100%;
+    max-width: 350px;
+
+    font-size: 12px;
+
+    line-height: 1.7em;
+
+    text-align: center;
+  }
+
+  .pojsxblock h3 {
+
+    text-align: center;
+
+    font-size: 22px;
+  }
+
+
+  /* =======================================================
+     POJAX ICON
+  ======================================================= */
+
+  .pojaxIcon {
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 7px;
+
+    padding-top: 7px;
+  }
+
+  .pojaxIcon img {
+
+    width: 16px;
+    height: 16px;
+
+    object-fit: contain;
+  }
+
+  .pojaxIcon p {
+
+    width: auto;
+
+    font-size: 14px;
+  }
+
+
+  /* =======================================================
+     WOMAN LINE
+  ======================================================= */
+
+  .womansLinear {
+
+    width: 55px;
+    height: 1px;
+  }
+
+
+  /* =======================================================
+     CATEATED LIVING
+  ======================================================= */
+
+  .CatetedLiving {
+
+    width: 100%;
+
+    padding: 40px 15px 0;
+
+    gap: 12px;
+
+    text-align: center;
+  }
+
+  .CatetedLiving h3 {
+
+    font-size: 24px;
+
+    line-height: 1.2em;
+  }
+
+  .CatetedLiving p {
+
+    width: 100%;
+    max-width: 400px;
+
+    font-size: 12px;
+
+    line-height: 1.7em;
+  }
+
+
+  /* =======================================================
+     LIVING IMAGES
+  ======================================================= */
+
+  .CatetedLivingImages {
+
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    justify-items: center;
+
+    gap: 15px;
+
+    padding: 30px 15px 20px;
+
+    margin-top: 30px;
+  }
+
+  .CatetedLivingImages img {
+
+    width: 140px;
+    height: 195px;
+
+    object-fit: cover;
+  }
+
+
+  /* =======================================================
+     SHOREN
+  ======================================================= */
+
+  .shorenContainer {
+
+    width: 100%;
+
+    padding: 0 15px;
+
+    gap: 15px;
+  }
+
+  .shorensFlex {
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    padding: 8px 5px;
+  }
+
+  .shorenContainer p {
+
+    font-size: 12px;
+
+    line-height: 1.5em;
+  }
+
+  .prices {
+
+    font-size: 13px;
+  }
+
+  .shorensFlex img {
+
+    width: 24px;
+    height: 16px;
+
+    object-fit: contain;
+  }
+
+
+  /* =======================================================
+     VIEW ALL BUTTON
+  ======================================================= */
+
+  .viewAllBatton {
+
+    width: calc(100% - 30px);
+
+    max-width: 400px;
+
+    padding: 14px 15px;
+
+    font-size: 14px;
+
+    margin-top: 30px;
+  }
+
+
+  /* =======================================================
+     PURPOSE
+  ======================================================= */
+
+  .purpose {
+
+    width: 100%;
+
+    padding-top: 40px;
+  }
+
+  .purposeContainer {
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 35px;
+
+    padding: 45px 15px 30px;
+  }
+
+
+  /* PURPOSE FIRST */
+
+  .purposeFirst {
+
+    width: 100%;
+
+    padding: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 10px;
+
+    text-align: center;
+  }
+
+  .purposeFirst h3 {
+
+    font-size: 24px;
+
+    line-height: 1.2em;
+  }
+
+  .purposeFirst p {
+
+    width: 100%;
+    max-width: 450px;
+
+    font-size: 12px;
+
+    line-height: 1.7em;
+  }
+
+
+  /* PURPOSE TWO */
+
+  .purposeTwo {
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+  }
+
+
+  .purpose img {
+
+    width: 25px;
+    height: 30px;
+  }
+
+  .purpose p {
+
+    font-size: 12px;
+  }
+
+
+  /* =======================================================
+     MIA IMAGE SECTION
+  ======================================================= */
+
+  .miasContainer {
+
+    width: 100%;
+
+    margin-top: 30px;
+  }
+
+  .sectinMia img {
+
+    width: 100%;
+
+    height: 380px;
+
+    object-fit: cover;
+  }
+
+
+  /* =======================================================
+     MIA OVERLAY
+  ======================================================= */
+
+  .overContainers {
+
+    position: absolute;
+
+    inset: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 25px;
+
+    padding: 0 20px;
+
+    text-align: center;
+  }
+
+  .overContainers p {
+
+    font-size: 11px;
+
+    letter-spacing: 1px;
+
+    line-height: 1.5em;
+  }
+
+  .overContainers h3 {
+
+    width: 100%;
+    max-width: 500px;
+
+    font-size: 24px;
+
+    line-height: 1.3em;
+  }
+
+  .miasButtom {
+
+    width: 85%;
+    max-width: 400px;
+
+    padding: 14px 15px;
+
+    font-size: 14px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   SMALL MOBILE — 480px
+========================================================= */
+
+@media (max-width: 480px) {
+
+
+  /* HERO */
+
+  .womansImage img {
+
+    height: 340px;
+  }
+
+
+  /* COLLECTION */
+
+  .womansCollectionImages {
+
+    gap: 10px;
+
+    padding: 25px 10px 15px;
+
+    margin-top: 25px;
+  }
+
+  .womansCollectionImages img {
+
+    width: 130px;
+    height: 175px;
+  }
+
+
+  /* SHOP */
+
+  .shopCategory {
+
+    padding: 30px 12px 0;
+  }
+
+  .shopCategory h3 {
+
+    font-size: 21px;
+  }
+
+  .shopCategory p,
+  .shopCategory h5 {
+
+    font-size: 11px;
+
+    line-height: 1.7em;
+  }
+
+
+  /* POJSX */
+
+  .pojsxblock {
+
+    padding: 0 12px;
+  }
+
+  .pojsxblock h3 {
+
+    font-size: 20px;
+  }
+
+  .pojsxblock p {
+
+    font-size: 11px;
+  }
+
+
+  /* POJAX ICON */
+
+  .pojaxIcon {
+
+    gap: 5px;
+
+    padding-top: 5px;
+  }
+
+  .pojaxIcon img {
+
+    width: 14px;
+    height: 14px;
+  }
+
+  .pojaxIcon p {
+
+    font-size: 12px;
+  }
+
+
+  /* LIVING */
+
+  .CatetedLiving {
+
+    padding: 30px 12px 0;
+  }
+
+  .CatetedLiving h3 {
+
+    font-size: 21px;
+  }
+
+  .CatetedLiving p {
+
+    font-size: 11px;
+  }
+
+
+  /* LIVING IMAGES */
+
+  .CatetedLivingImages {
+
+    gap: 10px;
+
+    padding: 25px 10px 15px;
+
+    margin-top: 25px;
+  }
+
+  .CatetedLivingImages img {
+
+    width: 125px;
+    height: 170px;
+  }
+
+
+  /* SHOREN */
+
+  .shorenContainer {
+
+    padding: 0 10px;
+  }
+
+  .shorensFlex {
+
+    gap: 10px;
+  }
+
+  .shorenContainer p {
+
+    font-size: 11px;
+  }
+
+  .prices {
+
+    font-size: 12px;
+  }
+
+  .shorensFlex img {
+
+    width: 20px;
+    height: 14px;
+  }
+
+
+  /* BUTTON */
+
+  .viewAllBatton {
+
+    width: calc(100% - 24px);
+
+    padding: 13px 12px;
+
+    font-size: 13px;
+  }
+
+
+  /* PURPOSE */
+
+  .purposeContainer {
+
+    padding: 35px 12px 25px;
+
+    gap: 30px;
+  }
+
+  .purposeFirst h3 {
+
+    font-size: 21px;
+  }
+
+  .purposeFirst p {
+
+    font-size: 11px;
+  }
+
+  .purpose img {
+
+    width: 22px;
+    height: 27px;
+  }
+
+  .purpose p {
+
+    font-size: 11px;
+  }
+
+
+  /* MIA */
+
+  .sectinMia img {
+
+    height: 340px;
+  }
+
+  .overContainers {
+
+    padding: 0 15px;
+
+    gap: 20px;
+  }
+
+  .overContainers p {
+
+    font-size: 10px;
+  }
+
+  .overContainers h3 {
+
+    font-size: 21px;
+  }
+
+  .miasButtom {
+
+    width: 90%;
+
+    font-size: 13px;
+  }
+
+}

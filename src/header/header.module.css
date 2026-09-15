@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+
+
+width: 100%;
+  min-height: 100vh;
+
+
+
+}
+
+
+
+
+.header {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+
+  background-image: url('../images/bemjamen.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.headerContent {
+  position: absolute;
+  left: 47%;
+  bottom: 70%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  color: #AAAFB3;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  z-index: 2;
+}
+
+.headerTitle {
+  width: 550px;
+  padding: 15px 30px;
+
+  color: #AAAFB3;
+
+  border-radius: 5px;
+
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+.headerButton {
+  position: absolute;
+  left: 65%;
+  bottom: 9%;
+  transform: translateX(-50%);
+
+  width: 35%;
+  padding: 15px 20px;
+
+  background-color: #AAAFB3;
+  color: #252525;
+
+  border: none;
+
+  font-family: "Old Standard TT", serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+  z-index: 2;
+
+  transition: 0.35s ease;
+}
+
+.headerButton:hover {
+  background-color: #670508;
+  color: #ffffff;
+  transform: translateX(-50%) translateY(-2px);
+}
+
+/* ნაზი ნიღაბი */
+.header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.22);
+
+  z-index: 1;
+}
+
+@media (max-width: 1024px) {
+
+  .header {
+    min-height: 85vh;
+    background-position: center;
+  }
+
+  .headerContent {
+    left: 42%;
+    bottom: 68%;
+  }
+
+  .headerTitle {
+    width: 480px;
+    font-size: 34px;
+    padding: 12px 24px;
+  }
+
+  .headerButton {
+    left: 65%;
+    width: 38%;
+    padding: 14px 18px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .header {
+    min-height: 100svh;
+
+    background-size: cover;
+    background-position: center;
+  }
+
+  .headerContent {
+    left: 50%;
+    bottom: auto;
+    top: 22%;
+
+    width: 90%;
+
+    transform: translateX(-50%);
+
+    align-items: center;
+    text-align: center;
+  }
+
+  .headerTitle {
+    width: 100%;
+    max-width: 500px;
+
+    padding: 12px 18px;
+
+    font-size: 30px;
+    line-height: 1.15;
+    letter-spacing: 0.8px;
+  }
+
+  .headerButton {
+    left: 50%;
+    bottom: 8%;
+
+    width: 65%;
+    max-width: 320px;
+
+    padding: 14px 18px;
+
+    font-size: 15px;
+  }
+}
+

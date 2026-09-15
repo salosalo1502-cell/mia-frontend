@@ -1,0 +1,207 @@
+.checkoutPage {
+  min-height: 100vh;
+  padding: 120px 40px 80px;
+  background: #f6f3ec;
+  color: #111;
+}
+
+.backToShop{
+
+position: absolute;
+
+
+
+}
+
+
+
+
+.title {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+.checkoutContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 70px;
+}
+
+.customerSection,
+.orderSection {
+  background: #fff;
+  padding: 40px;
+}
+
+.customerSection h2,
+.orderSection h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.inputRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+
+.inputGroup label {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  margin-bottom: 8px;
+}
+
+.inputGroup input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px 12px;
+  border: 1px solid #cfcac0;
+  background: #faf9f6;
+  font-size: 15px;
+  outline: none;
+}
+
+.inputGroup input:focus {
+  border-color: #111;
+}
+
+.placeOrderButton {
+  width: 100%;
+  margin-top: 15px;
+  padding: 16px;
+  border: none;
+  background: #111;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.orderItem {
+  display: flex;
+  gap: 18px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #ddd8cf;
+}
+
+.orderItem img {
+  width: 90px;
+  height: 110px;
+  object-fit: cover;
+}
+
+.orderInfo h3 {
+  margin: 0 0 12px;
+  font-family: "Playfair Display", serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.orderInfo p {
+  margin: 5px 0;
+  font-size: 13px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #111;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+.orderSuccess {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 50px;
+  padding: 45px 30px;
+  text-align: center;
+  border-top: 1px solid #404040;
+  border-bottom: 1px solid #404040;
+}
+
+.orderSuccess h2 {
+  margin: 0 0 15px;
+  font-family: "Old Standard TT", serif;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.orderSuccess p {
+  margin: 0;
+  font-family: "Old Standard TT", serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+
+  .checkoutPage {
+    padding: 100px 20px 50px;
+  }
+
+  .title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .checkoutContainer {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .customerSection,
+  .orderSection {
+    padding: 25px;
+  }
+
+  .inputRow {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .checkoutPage {
+    padding: 90px 15px 40px;
+  }
+
+  .customerSection,
+  .orderSection {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+}

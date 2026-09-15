@@ -1,0 +1,551 @@
+.companyHeader{
+
+
+width:100% ;
+position: relative;
+
+}
+
+.companyImage{
+
+width:100%;
+ position: relative;
+  overflow: hidden;
+
+}
+.companyImage img{
+
+ width: 100%;
+    height: 450px;
+    object-fit: cover;
+
+
+}
+
+
+.companySpeach{
+
+
+display: flex;
+flex-direction:column ;
+
+position: absolute;
+inset:0 ;
+align-self:flex-start;
+
+top:10%;
+left:7%;
+
+
+}
+
+.companySpeachTitle{
+
+font-size:13px ;
+
+font-weight: 700;
+
+letter-spacing: 1px;
+
+
+
+}
+.companySpeach h3{
+
+font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+
+font-size:22px ;
+
+}
+
+.companySpeach p{
+
+
+width:400px ;
+
+
+font-size:13px ;
+
+font-weight: 600;
+
+line-height:1.5em;
+
+
+
+
+
+}
+
+.companySpeachContainer{
+
+    display: flex;
+
+   align-items: center;
+
+   gap: 30px;
+
+
+}
+.companySpeachHeader{
+
+align-self: flex-start;
+
+
+font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+
+font-size:30px ;
+
+padding: 10px 10px;
+
+
+color:white;
+text-shadow:
+  3px 3px 6px rgba(0, 0, 0, 0.75),
+  0 0 12px rgba(0, 0, 0, 0.45);
+
+
+}
+
+.companySpeachHeader h2{
+
+font-weight: 300;
+
+
+}
+
+
+
+.searchALL{
+
+
+
+display: flex;
+
+flex-direction: column;
+gap:10px ;
+
+width: 430px;
+
+padding:20px 20px ;
+
+background-color:#262625; 
+color: #B5BABD;
+
+
+
+}
+.searchALL h3{
+
+font-size: 30px; 
+color:white;
+
+font-weight: 300;
+
+
+
+}
+
+
+
+.companyImage::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(8, 8, 4, 0.62) 0%,
+      rgba(8, 8, 4, 0.38) 38%,
+      rgba(8, 8, 4, 0.30) 65%,
+
+rgba(8, 8, 4, 0.65) 100%
+
+    );
+
+  z-index: 2;
+  pointer-events: none;
+
+
+
+
+}
+
+
+ .whoweareSpeach{
+
+
+display: flex;
+flex-direction: column;
+
+gap:25px;
+padding-top: 60px;
+
+
+ }
+
+.whoweareSpeach p{
+
+color:#050709;
+
+font-weight: 400;
+
+}
+
+
+
+.miasP{
+
+
+  width: 550px;
+
+font-size:15px ;
+
+font-weight: 700;
+line-height:1.5em ;
+
+
+color:#050709;
+
+}
+
+.whoweareSpeach h2{
+
+font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+
+font-size:30px ;
+
+color: rgb(20, 0, 0);
+
+
+}
+
+.whoweareBlocks{
+
+width:100% ;
+
+height:500px ;
+
+display: flex;
+
+justify-content: center;
+
+
+padding: 30px 30px;
+
+gap:40px ;
+
+}
+
+.whoweareBlocks {
+  position: relative;
+  overflow: hidden;
+}
+
+.whoweareBlocks::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(8, 8, 4, 0.62) 0%,
+      rgba(8, 8, 4, 0.38) 38%,
+      rgba(8, 8, 4, 0.16) 68%,
+      rgba(8, 8, 4, 0.42) 100%
+    );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.whoweareBlocks > * {
+  position: relative;
+  z-index: 2;
+}
+.whoweareImage{
+
+padding-top:60px ;
+
+
+
+}
+
+
+@media (max-width: 768px) {
+
+    .companyHeader {
+        width: 100%;
+    }
+
+
+    .companyImage {
+        width: 100%;
+    }
+
+
+    .companyImage img {
+        width: 100%;
+        height: 420px;
+        object-fit: cover;
+        display: block;
+    }
+
+
+    .companySpeach {
+        width: 100%;
+        box-sizing: border-box;
+
+        top: 8%;
+        left: 0;
+
+        padding: 0 25px;
+
+        gap: 10px;
+    }
+
+
+    .companySpeachTitle {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+
+    .companySpeach h3 {
+        font-size: 20px;
+    }
+
+
+    .companySpeach p {
+        width: 100%;
+        max-width: 430px;
+
+        font-size: 12px;
+        line-height: 1.6em;
+    }
+
+
+    .companySpeachContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+
+    .companySpeachHeader {
+        font-size: 25px;
+        padding: 8px 0;
+    }
+
+
+    .companySpeachHeader h2 {
+        font-size: 25px;
+    }
+
+
+    .searchALL {
+        width: 100%;
+        max-width: 430px;
+
+        padding: 18px 20px;
+
+        box-sizing: border-box;
+    }
+
+
+    .searchALL h3 {
+        font-size: 25px;
+    }
+
+
+    
+
+    .whoweareSpeach {
+        width: 100%;
+        box-sizing: border-box;
+
+        gap: 20px;
+        padding: 40px 25px 20px;
+    }
+
+
+    .whoweareSpeach h2 {
+        font-size: 26px;
+    }
+
+
+    .miasP {
+        width: 100%;
+        max-width: 550px;
+
+        font-size: 13px;
+        line-height: 1.7em;
+    }
+
+
+
+    .whoweareBlocks {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        padding: 30px 20px;
+        gap: 30px;
+
+        box-sizing: border-box;
+    }
+
+
+    .whoweareImage {
+        width: 100%;
+        padding-top: 20px;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+
+    .companyImage img {
+        height: 380px;
+    }
+
+
+    .companySpeach {
+        top: 7%;
+        padding: 0 20px;
+    }
+
+
+    .companySpeachTitle {
+        font-size: 11px;
+    }
+
+
+    .companySpeach h3 {
+        font-size: 18px;
+    }
+
+
+    .companySpeach p {
+        font-size: 11px;
+        line-height: 1.55em;
+    }
+
+
+    .companySpeachHeader,
+    .companySpeachHeader h2 {
+        font-size: 22px;
+    }
+
+
+    .searchALL {
+        padding: 15px 17px;
+    }
+
+
+    .searchALL h3 {
+        font-size: 22px;
+    }
+
+
+    .whoweareSpeach {
+        padding: 35px 20px 15px;
+    }
+
+
+    .whoweareSpeach h2 {
+        font-size: 23px;
+    }
+
+
+    .miasP {
+        font-size: 12px;
+        line-height: 1.7em;
+    }
+
+
+    .whoweareBlocks {
+        padding: 25px 16px;
+        gap: 25px;
+    }
+}
+
+
+
+@media (max-width: 360px) {
+
+    .companyImage img {
+        height: 350px;
+    }
+
+
+    .companySpeach {
+        top: 6%;
+        padding: 0 16px;
+    }
+
+
+    .companySpeachTitle {
+        font-size: 10px;
+    }
+
+
+    .companySpeach h3 {
+        font-size: 17px;
+    }
+
+
+    .companySpeach p {
+        font-size: 10.5px;
+        line-height: 1.5em;
+    }
+
+
+    .companySpeachHeader,
+    .companySpeachHeader h2 {
+        font-size: 20px;
+    }
+
+
+    .searchALL {
+        padding: 13px 15px;
+    }
+
+
+    .searchALL h3 {
+        font-size: 20px;
+    }
+
+
+    .whoweareSpeach {
+        padding: 30px 16px 10px;
+    }
+
+
+    .whoweareSpeach h2 {
+        font-size: 21px;
+    }
+
+
+    .miasP {
+        font-size: 11px;
+    }
+
+
+    .whoweareBlocks {
+        padding: 20px 14px;
+        gap: 20px;
+    }
+}

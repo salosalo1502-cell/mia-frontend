@@ -1,0 +1,373 @@
+
+.suitsContainer{
+
+ font-family: "Old Standard TT", serif; 
+width:100%;
+
+
+
+
+margin-top:50px;
+
+display:flex;
+
+
+padding: 40px 40px;;
+
+gap:30px;
+
+}
+
+.suitsDescription{
+
+width:350px;
+
+
+font-size:16px ;
+
+font-weight:500 ;
+
+
+line-height: 1.5em ;
+
+}
+
+.suitsImage{
+
+width:300px;
+height:350px ;
+
+
+letter-spacing:2px ;
+
+
+
+}
+
+.suitsImage img{
+
+width:100%;
+
+
+
+}
+.suitsFeature{
+
+list-style-type: disc;
+
+
+
+
+}
+.suitsTextContainer{
+
+
+display:flex;
+
+flex-direction: column;
+
+gap:10px;
+
+
+}
+.suitsFeatures{
+
+line-height:1.8em ;
+font-weight:600;
+
+text-transform: uppercase;
+
+
+font-size:15px ;
+
+
+}
+
+
+.suitsButton{
+
+display: block;
+
+
+text-align: center;
+
+padding: 10px 10px;
+
+}
+
+
+.suitsChoise{
+
+width:800px ;
+
+
+
+font-family: "Old Standard TT", serif; 
+padding: 40px 40px;;
+
+
+}
+
+
+.suitsChoise h2{
+
+text-align: center;
+padding:10px 10px ;
+
+line-height: 1.8em ;
+
+
+}
+
+.suitsChoiseImages{
+
+display: flex;
+
+gap:20px;
+
+
+}
+
+.suitsChoiseImages img{
+
+width:200px ;
+
+height:260px ;
+
+}
+
+
+
+.suitsImages {
+
+  display: flex;
+ flex-direction: column;  
+  transition: transform 0.4s ease;
+}
+
+.suitsImages:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+.suitsButton {
+
+width: 50%;
+
+  background: #000;
+  color: #fff;
+  border: 1px solid #000;
+  padding: 14px 28px;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.suitsButton:hover {
+  background: #660507;
+  border-color: #660507;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.suitsImage {
+  position: relative;
+  overflow: hidden;
+}
+
+.suitsImage img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.zoomWindow {
+  position: absolute;
+
+  width: 180px;
+  height: 180px;
+
+  border-radius: 50%;
+  
+
+  pointer-events: none;
+
+  background-repeat: no-repeat;
+  background-size: 250%;
+
+  transform: translate(-50%, -50%);
+
+  z-index: 20;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+  .suitsContainer {
+    padding: 30px;
+    gap: 25px;
+  }
+
+  .suitsImage {
+    width: 280px;
+    height: 330px;
+  }
+
+  .suitsDescription {
+    width: 300px;
+  }
+
+  .suitsChoise {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .suitsChoiseImages {
+    flex-wrap: wrap;
+  }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+  .suitsContainer {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .suitsImage {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .suitsImage img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .suitsDescription {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .suitsTextContainer {
+    width: 100%;
+  }
+
+  .suitsFeatures {
+    font-size: 14px;
+    line-height: 1.7em;
+  }
+
+  .suitsButton {
+    width: 100%;
+    padding: 14px 20px;
+  }
+
+  .suitsChoise {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .suitsChoise h2 {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+
+  .suitsChoiseImages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .suitsChoiseImages img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .zoomWindow {
+    width: 140px;
+    height: 140px;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .suitsContainer {
+    padding: 15px;
+    gap: 25px;
+  }
+
+  .suitsImage {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .suitsDescription {
+    font-size: 14px;
+    line-height: 1.6em;
+  }
+
+  .suitsFeatures {
+    font-size: 13px;
+    line-height: 1.6em;
+  }
+
+  .suitsButton {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    padding: 13px 15px;
+  }
+
+  .suitsChoise h2 {
+    font-size: 18px;
+  }
+
+  .suitsChoiseImages img {
+    max-width: 100%;
+  }
+
+  .zoomWindow {
+    width: 120px;
+    height: 120px;
+  }
+
+}

@@ -1,0 +1,1021 @@
+
+.MensCollection{
+
+width:100% ;
+position: relative;
+
+
+
+
+}
+
+.MensCollection {
+  position: relative;
+  overflow: hidden;
+}
+
+.MensCollection::before {
+   content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(8, 8, 4, 0.05) 0%,
+    rgba(8, 8, 4, 0.18) 55%,
+    rgba(8, 8, 4, 0.34) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+.mensImage{
+
+width: 100%;
+
+
+
+
+}
+
+.mensImage img{
+
+width: 100%;
+
+height:400px;
+}
+.mensHerro{
+ color: #F6F3EC;
+
+padding:0px 5px;
+
+   background-color: #262625;
+
+  font-size: 12px;
+  letter-spacing: 1.5px;
+
+  
+
+  border-bottom: 1px solid rgba(246, 243, 236, 0.18);
+
+  transition: color 0.3s ease;
+
+width:400px ;
+
+
+
+line-height:2.0;
+
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
+
+position: absolute;
+
+top:10%;
+
+right:0;
+
+top:75%;
+
+
+
+
+}
+.mensHerro h3{
+
+width: 100%;
+
+    
+}
+
+.mensHerro p{
+
+width: 100%;
+
+
+} 
+
+/*
+end off mens collection
+
+*/
+
+/*
+modern procession
+
+*/
+
+ .modernProcession{
+
+width:100% ;
+
+margin-top: 20px;
+
+display:flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+text-align: center;
+
+gap:10px;
+
+
+
+
+
+ }
+
+
+
+.modernProcession > * {
+  position: relative;
+  z-index: 2;
+}
+
+
+
+
+
+
+
+
+.mensModern{
+
+width: 550px ;
+margin:0 auto ;
+
+opacity:0.7;
+
+}
+
+.value {
+  display: block;
+  width: 70px;
+  height: 2px;
+  background-color: #660507;
+  margin: 15px auto;
+}
+
+.modernProcession p{
+
+font-size: 13px;
+font-weight:600 ;
+
+width: 400px;
+
+margin:0 auto ;
+
+color: #660507;
+letter-spacing: 1px;
+
+}
+
+
+
+
+.modernProcession h3{
+ font-family: "Old Standard TT", serif; 
+
+font-size:28px;
+
+}
+
+/*
+end off modern procession
+
+*/
+
+
+/*
+mens category
+
+*/
+
+
+
+ .categoryImages{
+width: 100%;
+display:flex;
+flex-direction: column;
+
+
+
+justify-content: center;
+
+align-items: center;
+
+margin-top:30px ;
+
+gap: 15px;
+
+
+
+
+
+ }
+
+.categoryImages {
+  position: relative;
+  overflow: hidden;
+}
+
+.categoryImages::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(8, 8, 4, 0.04) 0%,
+    rgba(8, 8, 4, 0.16) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+
+.categoryImages > * {
+  position: relative;
+  z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+.categotyHeder{
+width: 100%;
+
+display:flex;
+
+flex-direction: column;
+
+align-items: center;
+
+margin-top:50px ;
+gap:10px ;
+
+
+}
+
+.categotyHeder p{
+
+font-size: 13px;
+font-weight:600 ;
+
+width: 400px;
+
+
+
+color: #660507;
+letter-spacing: 1px;
+
+text-align: center;
+
+}
+
+.categotyHeder h3{
+
+ font-family: "Old Standard TT", serif; 
+
+font-size:28px;
+
+
+}
+
+
+
+
+
+.mensCategoryContainer{
+
+display: flex;
+width: 100%;
+
+
+
+
+}
+
+
+.mensCategory{
+display: flex;
+flex-direction: column;
+
+
+background-color:#F4ECDE; 
+width: 100%;
+margin-top:20px ;
+
+
+
+}
+
+.iconoses{
+
+display:flex ;
+
+align-self: center;
+
+gap:30px;
+justify-content: center;
+
+padding-top:20px ;
+background-color:white ;
+
+}
+
+.air{
+
+align-self:flex-end ;
+
+
+
+}
+
+.paltosIcons{
+
+line-height: 1.8em;
+
+
+}
+.paltosIcons p{
+
+font-size:13px;
+font-weight: 600;
+color:#660507;
+
+font-weight: 700;
+opacity:0.5;
+
+
+}
+
+.paltosIcons h4{
+
+font-family: "Old Standard TT", serif; 
+font-size: 22px;
+
+}
+
+
+
+.categoryImages {
+    display: flex;
+    flex-direction: row;
+}
+
+.iconoses img{
+
+  width:30px ;
+
+  height:35px ;
+}
+
+/*
+end off mens category
+
+*/
+/*
+.collectionsoverlasis
+
+*/
+.ourCollection{
+
+width: 100%;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+line-height: 1.8em;
+
+padding-top:50px ;
+
+
+
+}
+
+
+.collectionLinear {
+display: block;
+  width: 400px;
+  height: 2px;
+ 
+  margin: 15px auto;
+
+background-color: #6F6F6F;
+
+}
+
+.imageFunqionaliti{
+
+
+
+width: 100%;
+
+text-align: center;
+
+}
+
+.imageFunqionaliti img{
+
+width: 550px;
+
+
+
+}
+
+
+.imgLayaout{
+
+width:800px ;
+background-color:#FFFDF9; 
+
+margin:0 auto ;
+
+}
+.iconose{
+
+
+
+line-height:2.0em;
+width: 800px;
+margin:0 auto ;
+
+margin-top:2px ;
+
+background-color:#FFFDF9; 
+
+padding:0px 10px ;
+
+
+
+}
+
+.iconose h4{
+
+ font-family: "Old Standard TT", serif; 
+
+font-size:22px;
+
+
+
+
+}
+
+.paltosI{
+
+display: flex;
+flex-direction: column;
+
+align-items: flex-start;
+
+justify-content: center;
+
+
+}
+
+
+.viewAll{
+
+display: flex;
+
+gap:20px ;
+
+font-size:13px ;
+color:#660507;
+
+font-weight: 700;
+
+}
+
+.viewAlls{
+
+display: flex;
+justify-content: center;
+gap:20px ;
+
+
+padding:40px 40px ;
+font-size:13px ;
+color:#660507;
+
+font-weight: 700;
+
+width: 800px;
+margin:0 auto ;
+
+}
+
+
+
+
+
+.ourCollection h3{
+ font-family: "Old Standard TT", serif; 
+
+font-size:28px;
+
+
+
+}
+
+
+
+
+.ourCollection p{
+
+font-size: 13px;
+
+color:#660507;
+
+font-weight: 700;
+
+letter-spacing: 1px;
+
+
+
+}
+
+.ourCollection{
+
+line-height:2.5em ;
+
+}
+
+
+
+.premium{
+
+font-size: 13px;
+
+color:#660507;
+
+font-weight: 700;
+
+letter-spacing: 1px;
+
+
+}
+
+.catalogImages{
+
+width: 600px;
+
+display: flex;
+justify-content: center;
+
+gap:20px;
+padding-top: 20px;
+margin :0 auto;
+
+}
+.catalogs{
+
+background-color:#FFFDF9; 
+
+width: 800px;
+
+margin :0 auto;
+margin-top:2px ;
+
+
+
+}
+
+.collectionsoverlasis{
+
+background-color:#F4ECDE ;
+
+
+}
+
+/* =====================================================
+   MENS COLLECTION — RESPONSIVE
+===================================================== */
+
+
+/* =========================
+   TABLET
+   1024px
+========================= */
+
+@media (max-width: 1024px) {
+
+  .mensHerro {
+    width: 360px;
+    right: 0;
+  }
+
+  .mensModern {
+    width: 80%;
+    max-width: 550px;
+  }
+
+  .modernProcession p {
+    width: 80%;
+    max-width: 400px;
+  }
+
+  .imageFunqionaliti img {
+    width: 80%;
+    max-width: 550px;
+  }
+
+  .imgLayaout {
+    width: 90%;
+    max-width: 800px;
+  }
+
+  .iconose {
+    width: 90%;
+    max-width: 800px;
+  }
+
+  .viewAlls {
+    width: 90%;
+    max-width: 800px;
+  }
+
+  .catalogs {
+    width: 90%;
+    max-width: 800px;
+  }
+
+  .catalogImages {
+    width: 80%;
+    max-width: 600px;
+  }
+
+}
+
+
+/* =========================
+   MOBILE
+   768px
+========================= */
+
+@media (max-width: 768px) {
+
+ 
+.mensImage img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+
+  .mensHerro {
+    position: relative;
+
+    top: auto;
+    right: auto;
+
+    width: 90%;
+    max-width: 500px;
+
+    margin: -50px auto 0;
+
+    padding: 12px 15px;
+
+    z-index: 3;
+  }
+
+  .mensHerro h3,
+  .mensHerro p {
+    width: 100%;
+  }
+
+
+  /* =====================
+     MODERN PROCESSION
+  ===================== */
+
+  .modernProcession {
+    width: 100%;
+
+    margin-top: 35px;
+
+    padding: 0 15px;
+
+    gap: 8px;
+  }
+
+  .mensModern {
+    width: 90%;
+    max-width: 550px;
+  }
+
+  .modernProcession p {
+    width: 90%;
+    max-width: 400px;
+
+    font-size: 12px;
+  }
+
+  .modernProcession h3 {
+    font-size: 25px;
+  }
+
+
+  /* =====================
+     CATEGORY
+  ===================== */
+
+  .categotyHeder {
+    margin-top: 40px;
+
+    padding: 0 15px;
+  }
+
+  .categotyHeder p {
+    width: 90%;
+    max-width: 400px;
+
+    font-size: 12px;
+  }
+
+  .categotyHeder h3 {
+    font-size: 25px;
+  }
+
+
+  .mensCategoryContainer {
+    width: 100%;
+  }
+
+  .mensCategory {
+    width: 100%;
+  }
+
+
+  .categoryImages {
+    width: 100%;
+
+    flex-direction: column;
+
+    gap: 15px;
+  }
+
+
+  /* =====================
+     ICONS
+  ===================== */
+
+  .iconoses {
+    width: 100%;
+
+    gap: 20px;
+
+    padding: 18px 10px;
+  }
+
+  .iconoses img {
+    width: 27px;
+    height: 32px;
+  }
+
+  .paltosIcons {
+    line-height: 1.6em;
+  }
+
+  .paltosIcons h4 {
+    font-size: 20px;
+  }
+
+  .paltosIcons p {
+    font-size: 12px;
+  }
+
+
+  /* =====================
+     OUR COLLECTION
+  ===================== */
+
+  .ourCollection {
+    width: 100%;
+
+    padding: 40px 15px 0;
+
+    line-height: 2em;
+  }
+
+  .ourCollection h3 {
+    font-size: 25px;
+  }
+
+  .ourCollection p {
+    font-size: 12px;
+  }
+
+  .collectionLinear {
+    width: 70%;
+    max-width: 400px;
+  }
+
+
+  /* =====================
+     FUNCTIONAL IMAGE
+  ===================== */
+
+  .imageFunqionaliti {
+    width: 100%;
+
+    padding: 0 15px;
+  }
+
+  .imageFunqionaliti img {
+    width: 100%;
+    max-width: 550px;
+  }
+
+
+  /* =====================
+     IMAGE LAYOUT
+  ===================== */
+
+  .imgLayaout {
+    width: calc(100% - 30px);
+    max-width: 800px;
+  }
+
+  .iconose {
+    width: calc(100% - 30px);
+    max-width: 800px;
+
+    padding: 0 10px;
+  }
+
+  .iconose h4 {
+    font-size: 20px;
+  }
+
+
+  /* =====================
+     VIEW ALL
+  ===================== */
+
+  .viewAll {
+    gap: 12px;
+
+    font-size: 12px;
+  }
+
+  .viewAlls {
+    width: calc(100% - 30px);
+
+    padding: 30px 15px;
+
+    gap: 15px;
+
+    font-size: 12px;
+  }
+
+
+  /* =====================
+     CATALOG
+  ===================== */
+
+  .catalogs {
+    width: calc(100% - 30px);
+  }
+
+  .catalogImages {
+    width: 100%;
+
+    padding: 20px 15px 0;
+
+    gap: 12px;
+
+    flex-wrap: wrap;
+  }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+   480px
+========================= */
+
+@media (max-width: 480px) {
+
+  .mensHerro {
+    width: calc(100% - 24px);
+
+    margin-top: -35px;
+
+    padding: 10px 12px;
+  }
+
+  .mensHerro h3 {
+    font-size: 18px;
+  }
+
+  .mensHerro p {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+
+
+  .modernProcession {
+    padding: 0 12px;
+  }
+
+  .modernProcession h3 {
+    font-size: 22px;
+  }
+
+  .modernProcession p {
+    width: 100%;
+
+    font-size: 11px;
+
+    line-height: 1.7;
+  }
+
+  .mensModern {
+    width: 100%;
+  }
+
+
+  .categotyHeder {
+    padding: 0 12px;
+  }
+
+  .categotyHeder h3 {
+    font-size: 22px;
+  }
+
+  .categotyHeder p {
+    width: 100%;
+
+    font-size: 11px;
+
+    line-height: 1.7;
+  }
+
+
+  .iconoses {
+    gap: 12px;
+  }
+
+
+  .paltosIcons h4 {
+    font-size: 18px;
+  }
+
+  .paltosIcons p {
+    font-size: 11px;
+  }
+
+
+  .ourCollection {
+    padding: 35px 12px 0;
+  }
+
+  .ourCollection h3 {
+    font-size: 22px;
+  }
+
+
+  .collectionLinear {
+    width: 60%;
+  }
+
+
+  .imgLayaout {
+    width: calc(100% - 20px);
+  }
+
+  .iconose {
+    width: calc(100% - 20px);
+  }
+
+
+  .catalogs {
+    width: calc(100% - 20px);
+  }
+
+  .catalogImages {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    gap: 10px;
+  }
+
+}

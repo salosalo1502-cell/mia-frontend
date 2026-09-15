@@ -1,0 +1,891 @@
+.customHeader{
+
+
+width: 100%;
+
+margin:0;
+
+
+}
+
+.customSpeach{
+
+width: 100%;
+
+display: flex;
+
+flex-direction: column;
+justify-content: center;
+
+align-items: center;
+
+margin-top:2px;
+
+gap: 5px ;
+
+
+}
+.costumProduction{
+
+width: 450px;
+
+font-size:15px;
+
+font-weight: 600;
+
+color:#660507;
+
+font-weight: 700;
+
+
+
+letter-spacing: 1px;
+
+text-align: center;
+
+
+
+
+
+}
+
+.customSpeach h1{
+
+font-family: "Old Standard TT", serif; 
+
+color:#E9E1D9;
+
+font-size:60px ;
+font-weight:400 ;
+
+font-style: italic;
+
+}
+
+.customSpeach p{
+
+width: 400px;
+
+font-size:16px;
+
+font-weight: 700;
+
+color:#660507;
+
+font-weight: 700;
+
+line-height:1.5em ;
+
+margin:0 auto ;
+opacity:0.7 ;
+
+}
+
+
+
+
+
+.customLineaar {
+  width: 65px;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    #660507,
+    transparent
+  );
+  margin: 18px 0;
+}
+
+.customSpeach{
+
+width: 100%;
+
+
+display: flex;
+flex-direction: row;
+
+
+justify-content: center;
+
+
+
+}
+
+.costomSpeachElements{
+
+display: flex;
+flex-direction: column;
+
+
+
+align-self: start;
+width:100% ;
+
+align-items: center;
+
+gap: 15px;
+
+padding: 30px 30px;
+
+}
+
+
+.customSpeachElements {
+  background: linear-gradient(
+    135deg,
+    #C5BFB7 100%,
+    #B1ACA5 150%,
+    #77736D 10%
+  );
+}
+
+
+
+
+
+
+
+
+
+
+.buttonContainer{
+
+display: flex;
+gap:15px ;
+
+align-items: center;
+
+padding-top: 50px;
+
+
+}
+
+.customButtom{
+padding-top:20px ;
+
+ width:400px ;
+  
+  padding: 15px 20px;
+  font-size: 16px;
+  
+  
+  border: none;
+   background-color: #670508;
+color: #ffffff;
+
+
+
+  cursor: pointer;
+ font-family: "Old Standard TT", serif;
+  font-weight:700;
+  font-style: normal;
+
+  
+cursor: pointer;
+
+transition: 0.35s ease; 
+
+
+display: block;
+ 
+}
+
+.customButtom:hover{
+
+background-color:#AAAFB3;
+ color:#252525;
+  
+
+
+}
+
+
+
+ 
+
+
+  .customSpeach {
+    position: relative;
+    z-index: 10;
+}
+
+.customImage {
+    position: relative;
+    z-index: 1;
+    transform: translateX(-50px);
+
+border:2px solid white;
+
+}
+
+.customSpeach {
+    position: relative;
+    z-index: 2;
+}
+
+.customSpeach::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(8, 8, 4, 0.48) 0%,
+        rgba(8, 8, 4, 0.10) 45%,
+        rgba(8, 8, 4, 0.01) 100%
+    );
+    z-index: 0;
+}
+
+.customSpeach > * {
+    position: relative;
+    z-index: 1;
+}
+
+
+/*
+  .ourVision
+*/
+
+  .ourVision{
+
+ width:100% ;
+margin-top: 50px;
+
+  }
+
+
+.visionTipografi{
+
+display:flex;
+flex-direction: column;
+
+justify-content: center;
+
+align-items: center;
+
+gap:5px ;
+
+
+
+
+}
+
+
+
+
+.visionHead {
+
+font-family: "Old Standard TT", serif;
+
+
+
+
+}
+
+.visionSecondary{
+
+font-family: "Old Standard TT", serif;
+color:#4A3326;
+
+}
+
+.visionList{
+
+font-size: 13px;
+
+font-weight: 700;
+
+
+font-size:small;
+
+
+
+}
+
+/*
+  end of ourVision
+*/
+
+/*
+  .customProcces
+*/
+
+.customProcces{
+
+width: 100%;
+
+margin-top: 50px;
+
+display: flex;
+flex-direction: column;
+
+gap:30px;
+
+background-color:#D8D1C6 ;
+
+padding:30px 30px ;
+
+
+
+}
+
+
+
+
+.processCustomImages{
+
+width: 100%;
+
+
+
+display: flex;
+
+justify-content: center;
+
+
+align-items: center;
+
+gap:15px;
+
+
+}
+
+.customProccesSpeach{
+
+width: 500px;
+
+margin:0 auto ;
+
+line-height: 1.8em;
+
+}
+
+.processCustomImages img{
+
+
+  width:150px ;
+
+  height:200px ;
+
+  border:5px solid whitesmoke;
+}
+
+/*
+  .end off customProcces
+*/
+
+/*
+  readyStart
+*/
+
+
+
+
+.readyStart{
+
+
+  width:100% ;
+
+height: 300px;
+
+display: flex;
+
+padding:10px 10px ;
+
+gap: 50px;
+
+background-color:#D8D1C6;
+
+
+padding-top: 150px;
+
+
+
+
+
+box-sizing: border-box;
+height: 300px;
+
+
+
+}
+
+.readyStart >div{
+
+width: 400px;
+
+
+}
+
+
+
+
+.readyStartSpeach,
+.readyStartSpeachButtom{
+
+display: flex;
+
+flex-direction: column;
+gap:5px;
+
+
+}
+
+.readyStartSpeach{
+
+padding:0px 60px; 
+width: 500px;
+
+
+
+}
+
+
+
+
+
+
+
+.readyStartsButton{
+
+padding-top:20px ;
+
+ width:400px ;
+  
+  padding: 15px 20px;
+  font-size: 16px;
+  
+  
+  border: none;
+   background-color: #670508;
+color: #ffffff;
+
+
+
+  cursor: pointer;
+ font-family: "Old Standard TT", serif;
+  font-weight:700;
+  font-style: normal;
+
+  
+cursor: pointer;
+
+transition: 0.35s ease; 
+
+
+display: block;
+ 
+
+
+}
+
+
+.readyStartsButton:hover{
+
+background-color:#AAAFB3;
+ color:#252525;
+
+
+}
+
+
+.readyStartSpeach p{
+
+color:#9C7A3C;
+
+font-size: 13px;
+
+
+font-weight:700 ;
+
+}
+
+.readyStartSpeach h3{
+
+font-size: 30px;
+width:350px ;
+color:#79675B ;
+font-family: "Old Standard TT", serif;
+
+line-height: 1.5em;
+
+
+
+}
+
+
+.readyStartSpeachButtom{
+
+gap: 15px;
+
+
+}
+
+.readyStartSpeachButtom p{
+
+color:#9C7A3C;
+
+font-size: 13px;
+
+
+font-weight:700 ;
+
+text-transform: uppercase;
+
+line-height:1.5em ;
+
+
+}
+
+
+
+
+.readyStartsImage img{
+
+width: 100%;
+
+
+}
+
+
+/* =========================================================
+   CUSTOM PRODUCTION
+   RESPONSIVE
+========================================================= */
+
+
+/* =========================================================
+   TABLET — 1024px
+========================================================= */
+
+@media (max-width: 1024px) {
+
+  /* =========================
+     CUSTOM HERO
+  ========================= */
+
+  .customSpeach {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .customSpeachElements {
+    width: 55%;
+    padding: 25px 20px;
+  }
+
+  .customImage {
+    width: 45%;
+    transform: translateX(-25px);
+  }
+
+  .costumProduction {
+    width: 90%;
+    max-width: 450px;
+  }
+
+  .customSpeach h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .customSpeach p {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .customButtom {
+    width: 80%;
+    max-width: 400px;
+  }
+
+
+  /* =========================
+     OUR VISION
+  ========================= */
+
+  .ourVision {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .visionTipografi {
+    text-align: center;
+  }
+
+
+  /* =========================
+     PROCESS
+  ========================= */
+
+  .customProcces {
+    padding: 30px 20px;
+  }
+
+  .customProccesSpeach {
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .processCustomImages {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .processCustomImages img {
+    width: 140px;
+    height: 185px;
+  }
+
+
+  /* =========================
+     READY START
+  ========================= */
+
+  .readyStart {
+    gap: 30px;
+    padding: 100px 30px 30px;
+  }
+
+  .readyStart > div {
+    width: 45%;
+  }
+
+  .readyStartSpeach {
+    padding: 0 20px;
+    width: 100%;
+  }
+
+  .readyStartSpeach h3 {
+    width: 100%;
+    font-size: 27px;
+  }
+
+  .readyStartsButton {
+    width: 90%;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE — 768px
+========================================================= */
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+
+  .customHeader {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .customSpeach {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .customSpeach > * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .customSpeach h1 {
+    width: 100%;
+    font-size: 42px;
+    text-align: center;
+    line-height: 1.1;
+    margin: 0;
+  }
+
+  .costumProduction {
+    width: 90%;
+    max-width: 450px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .customSpeach p {
+    width: 90%;
+    max-width: 400px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .customSpeachElements,
+  .costomSpeachElements {
+    width: 100%;
+    max-width: 100%;
+    padding: 25px 20px;
+    box-sizing: border-box;
+  }
+
+  .customImage {
+    width: 100%;
+    max-width: 100%;
+    transform: none;
+    box-sizing: border-box;
+  }
+
+  .customImage img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .buttonContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 25px;
+    box-sizing: border-box;
+  }
+
+  .customButtom {
+    width: 90%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+
+
+  /* OUR VISION */
+
+  .ourVision {
+    width: 100%;
+    margin-top: 35px;
+    box-sizing: border-box;
+  }
+
+  .visionTipografi {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .visionHead,
+  .visionSecondary {
+    max-width: 100%;
+  }
+
+  .visionList {
+    max-width: 100%;
+    line-height: 1.6;
+  }
+
+
+  /* PROCESS */
+
+  .customProcces {
+    width: 100%;
+    margin-top: 35px;
+    padding: 25px 15px;
+    gap: 25px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .customProccesSpeach {
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    line-height: 1.7;
+    text-align: center;
+  }
+
+  .processCustomImages {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    box-sizing: border-box;
+  }
+
+  .processCustomImages img {
+    width: calc(50% - 6px);
+    max-width: 150px;
+    height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    box-sizing: border-box;
+  }
+
+
+  /* READY START */
+
+  .readyStart {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .readyStart > div {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .readyStartSpeach {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .readyStartSpeach h3 {
+    width: 100%;
+    max-width: 350px;
+    font-size: 27px;
+    line-height: 1.4;
+  }
+
+  .readyStartSpeach p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .readyStartSpeachButtom {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .readyStartSpeachButtom p {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  .readyStartsButton {
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+
+  .readyStartsImage {
+    width: 100%;
+  }
+
+  .readyStartsImage img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+}

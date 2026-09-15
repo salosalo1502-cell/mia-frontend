@@ -1,0 +1,356 @@
+
+*{
+
+text-decoration: none;
+
+list-style-type:none ;
+margin:0;
+
+padding:0;
+
+box-sizing:border-box ;
+
+
+}
+
+
+
+
+.logo{
+
+    width:200px;
+}
+
+
+.navbarList {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+align-items: center;
+
+}
+
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+ 
+  z-index:1000;
+}
+
+.logo {
+  margin-left: auto;
+
+ width: 100px;
+
+ 
+ background-color:#AAAFB3; 
+object-fit: cover;
+
+
+
+}
+
+.navList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  
+}
+
+
+.navbar {
+  width: 100%;
+margin:0 auto ;
+ 
+}
+
+.navbarContainer {
+ width: 100%;
+height:50px ;
+
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color:#262625; 
+color:black;
+
+
+
+}
+
+.productssList
+{
+
+position:relative;
+
+
+
+
+}
+
+
+.productssDropdown{
+
+position: absolute;
+
+opacity:0 ;
+
+
+}
+.produtssList:hover .productssDropdown {
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px 25px;
+  gap: 4px;
+
+  background-color: #262625;
+
+  margin-top: 20px;
+
+  z-index: 1000;
+
+  border-bottom: 2px solid #660507;
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
+}
+
+.productssDropdown a {
+  color: #F6F3EC;
+  text-decoration: none;
+
+  font-size: 12px;
+  letter-spacing: 1.5px;
+
+  padding: 8px 0;
+
+  border-bottom: 1px solid rgba(246, 243, 236, 0.18);
+
+  transition: color 0.3s ease;
+}
+/* =========================
+   HAMBURGER
+========================= */
+
+.hamburger {
+  display: none;
+
+  width: 38px;
+  height: 30px;
+
+  padding: 0;
+  margin: 0;
+
+  border: none;
+  background: transparent;
+
+  cursor: pointer;
+
+  flex-direction: column;
+  justify-content: space-between;
+
+  z-index: 20;
+}
+
+.hamburger span {
+  display: block;
+
+  width: 100%;
+  height: 2px;
+
+  background-color: #AAAFB3;
+
+  transition: all 0.35s ease;
+}
+
+
+/* =========================
+   HAMBURGER
+========================= */
+
+.hamburger {
+  display: none;
+
+  width: 38px;
+  height: 30px;
+
+  padding: 0;
+  border: none;
+  background: transparent;
+
+  cursor: pointer;
+
+  flex-direction: column;
+  justify-content: space-between;
+
+  z-index: 100;
+}
+
+.hamburger span {
+  width: 100%;
+  height: 2px;
+
+  background-color: #AAAFB3;
+
+  transition: 0.35s ease;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .navbar {
+    position: relative;
+  }
+
+  /* Hamburger გამოჩნდეს */
+
+  .hamburger {
+    display: flex;
+  }
+
+
+  /* მთავარი desktop მენიუ დაიმალოს */
+
+  .navbarList {
+    display: none;
+  }
+
+
+  /* გახსნილი მენიუ */
+
+  .navbarList.mobileMenuOpen {
+    display: flex;
+
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    width: 100%;
+
+    flex-direction: column;
+    align-items: center;
+
+    padding: 25px 0;
+
+    margin: 0;
+
+    background: rgba(15, 15, 15, 0.97);
+
+    z-index: 99;
+  }
+
+
+  .navbarList.mobileMenuOpen li {
+    width: 100%;
+
+    text-align: center;
+  }
+
+
+  .navbarList.mobileMenuOpen li > a {
+    display: block;
+
+    width: 100%;
+
+    padding: 15px 20px;
+
+    color: #AAAFB3;
+  }
+
+
+  /* PRODUCTS */
+
+  .navbarList.mobileMenuOpen .productssDropdown {
+    position: static;
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    background: transparent;
+  }
+
+
+  .navbarList.mobileMenuOpen .productssDropdown a {
+    padding: 9px 20px;
+
+    font-size: 13px;
+
+    color: #888;
+  }
+
+
+  /* =========================
+     HAMBURGER → X
+  ========================= */
+
+  .hamburger.active span:nth-child(1) {
+    transform: translateY(14px) rotate(45deg);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: translateY(-14px) rotate(-45deg);
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .hamburger {
+    display: flex;
+  }
+
+}
+
+
+/* =========================
+   ACTIVE / CLOSE
+========================= */
+
+.hamburger.active span:nth-child(1) {
+  transform: translateY(14px) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: translateY(-14px) rotate(-45deg);
+}

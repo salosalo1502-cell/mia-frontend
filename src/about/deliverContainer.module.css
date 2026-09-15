@@ -1,0 +1,295 @@
+
+
+.deliveringContainer{
+
+width:100% ;
+
+background-color:#E3DAD0 ;
+display:flex;
+
+justify-content: center;
+
+padding-top:100px ;
+
+
+
+
+
+
+}
+
+.globalSalution{
+
+width:400px ;
+
+
+
+}
+.globalSalution img{
+
+width:100% ;
+
+}
+
+
+
+
+.deliverinQuality{
+
+
+
+padding:50px 50px ;
+
+font-family: "Old Standard TT", serif;
+
+color:#3A3A3A;
+
+opacity:0.8 ;
+
+
+}
+
+
+.lineear{
+
+width: 100px;
+
+
+display: block;
+height: 10px;
+
+}
+
+
+.clientsProduct{
+
+display:flex;
+
+flex-direction: column;
+
+background-color:#EEE7DE; 
+
+opacity:0.8 ;
+}
+
+.marketsSpeach{
+
+width: 350px;
+font-size: 13px;
+padding:10px 40px;
+line-height: 1.8em;
+
+color:#3A3A3A;
+font-weight: 700;
+
+}
+
+.markets{
+
+
+font-size: 13px;
+padding:20px 40px;
+color:#8A2E35;
+font-weight: 700;
+}
+
+
+.cavkasus img{
+
+
+
+width: 330px;
+
+height:400px ;
+
+opacity: 0.7;
+
+}
+
+
+.deliveringContainer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.18),
+        rgba(255, 255, 255, 0.04) 45%,
+        rgba(102, 5, 7, 0.035)
+    );
+
+    pointer-events: none;
+}
+
+.deliveringContainer > * {
+    position: relative;
+    z-index: 1;
+}
+
+.deliveringContainer {
+    position: relative;
+}
+
+
+@media (max-width: 768px) {
+
+    .deliveringContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        box-sizing: border-box;
+    }
+
+
+    .globalSalution {
+        width: 100%;
+        max-width: 500px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .globalSalution img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+
+    .deliverinQuality {
+        width: 100%;
+        padding: 35px 25px;
+        box-sizing: border-box;
+        font-size: 24px;
+    }
+
+
+    .lineear {
+        width: 80px;
+        height: 8px;
+    }
+
+
+    .clientsProduct {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+
+    .marketsSpeach {
+        width: 100%;
+        padding: 10px 25px;
+        box-sizing: border-box;
+        font-size: 13px;
+        line-height: 1.8em;
+    }
+
+
+    .markets {
+        width: 100%;
+        padding: 20px 25px;
+        box-sizing: border-box;
+        font-size: 13px;
+    }
+
+
+    .cavkasus {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cavkasus img {
+        width: 100%;
+        max-width: 330px;
+        height: 380px;
+        object-fit: cover;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .deliveringContainer {
+        padding-top: 30px;
+    }
+
+
+    .globalSalution {
+        padding: 0 15px;
+    }
+
+
+    .deliverinQuality {
+        padding: 30px 20px;
+        font-size: 21px;
+        line-height: 1.4em;
+    }
+
+
+    .lineear {
+        width: 70px;
+        height: 7px;
+    }
+
+
+    .marketsSpeach {
+        padding: 10px 20px;
+        font-size: 12px;
+        line-height: 1.7em;
+    }
+
+
+    .markets {
+        padding: 18px 20px;
+        font-size: 12px;
+    }
+
+
+    .cavkasus img {
+        max-width: 300px;
+        height: 340px;
+    }
+}
+
+
+
+@media (max-width: 360px) {
+
+    .deliveringContainer {
+        padding-top: 20px;
+    }
+
+
+    .globalSalution {
+        padding: 0 12px;
+    }
+
+
+    .deliverinQuality {
+        padding: 25px 16px;
+        font-size: 19px;
+    }
+
+
+    .marketsSpeach {
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+
+
+    .markets {
+        padding: 15px 16px;
+        font-size: 12px;
+    }
+
+
+    .cavkasus img {
+        width: 100%;
+        max-width: 280px;
+        height: 310px;
+    }
+}

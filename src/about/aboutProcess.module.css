@@ -1,0 +1,425 @@
+
+
+
+
+.proccesHedderBlock img{
+
+
+
+background: #AAAFB3;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.proccContainer{
+width:100% ;
+
+display: flex;
+
+justify-content: center;
+
+
+padding-top: 50px;
+
+background-color:#3A3A3A;
+
+color: #AAAFB3;
+
+
+
+
+
+
+}
+
+.processImage{
+
+
+
+max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+.processImage img{
+
+width:100% ;
+
+
+
+height: 600px;
+
+
+
+}
+.proccesHedderBlock{
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+gap:20px ;
+
+width:800px;
+ 
+
+
+
+}
+
+.productHerro{
+font-family: "Old Standard TT", serif;
+width: 800px;
+padding:10px 40px;
+text-transform: uppercase;
+}
+
+
+.horest{
+
+width:450px;
+
+
+line-height:1.5em;  
+
+padding:5px 40px;
+
+
+
+}
+
+
+
+.aboutProcces{
+
+width: 100%;
+
+display: flex;
+padding-top:20px ;
+
+}
+
+.innerBlocks{
+
+display: flex;
+
+width:100%;
+
+padding:10px 40px ;
+
+gap: 80px;
+
+
+
+
+}
+.sectionOne img{
+
+width: 50px;
+
+
+
+}
+.sectionOne  p{
+
+width:300px ;
+
+
+} 
+
+ .sectionTwo p{
+
+width:300px ;
+
+
+ }
+
+
+ .sectionTwo img{
+
+width: 50px;
+
+
+
+}
+
+.zapebi{
+
+width:50px ;
+height:50px ;
+
+}
+
+
+.globusi {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+
+
+.processBlock{
+
+
+
+width:800px ;
+display: flex;
+justify-content: center;
+
+
+
+}
+
+.innerBlockSection{
+
+
+
+display: flex;
+
+flex-direction: column;
+
+gap:15px;
+
+line-height: 1.8em;
+
+  font-size:13px ;
+
+  padding:8px 8px ;
+
+}
+.makrateli{
+
+width:50px;
+  height:50px;
+  object-fit: contain;
+
+
+
+}
+
+.sectionOne{
+
+
+
+display:flex;
+
+
+flex-direction: column;
+
+gap:20px;
+
+
+
+
+
+
+}
+.sectionTwo{
+
+
+
+display:flex;
+
+
+flex-direction: column;
+
+gap:10px;
+
+
+
+
+
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .proccContainer {
+        width: 100%;
+        flex-direction: column;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+
+    .processImage {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .processImage img {
+        width: 100%;
+        height: 380px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .proccesHedderBlock {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 25px 20px;
+        gap: 15px;
+    }
+
+    .productHerro {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 25px;
+        box-sizing: border-box;
+    }
+
+    .horest {
+        width: 100%;
+        padding: 5px 0;
+        line-height: 1.6em;
+        box-sizing: border-box;
+    }
+
+
+    .aboutProcces {
+        width: 100%;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+
+    .innerBlocks {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+
+    .sectionOne,
+    .sectionTwo {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .sectionOne p,
+    .sectionTwo p {
+        width: 100%;
+        line-height: 1.7em;
+        box-sizing: border-box;
+    }
+
+
+    .sectionOne img,
+    .sectionTwo img,
+    .makrateli,
+    .zapebi {
+        width: 45px;
+        height: 45px;
+        object-fit: contain;
+    }
+
+    .globusi {
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+    }
+
+
+    .processBlock {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .innerBlockSection {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 8px 0;
+        gap: 12px;
+        line-height: 1.7em;
+        font-size: 13px;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+
+    .processImage img {
+        height: 300px;
+    }
+
+    .proccesHedderBlock {
+        padding: 20px 16px;
+    }
+
+    .productHerro {
+        font-size: 22px;
+        line-height: 1.3em;
+    }
+
+    .horest {
+        font-size: 13px;
+        line-height: 1.6em;
+    }
+
+    .innerBlocks {
+        padding: 15px 16px;
+        gap: 30px;
+    }
+
+    .sectionOne,
+    .sectionTwo {
+        gap: 12px;
+    }
+
+    .sectionOne p,
+    .sectionTwo p {
+        font-size: 13px;
+    }
+}
+
+
+
+@media (max-width: 360px) {
+
+    .processImage img {
+        height: 260px;
+    }
+
+    .productHerro {
+        font-size: 20px;
+    }
+
+    .proccesHedderBlock {
+        padding: 18px 14px;
+    }
+
+    .innerBlocks {
+        padding: 15px 14px;
+    }
+}

@@ -1,0 +1,485 @@
+
+
+.sendMeil {
+  width: 1200px;
+  min-height: 550px;
+
+  margin: 100px auto;
+
+  padding: 80px 70px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  position: relative;
+
+  background: #F6F3EC;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+
+
+
+
+
+}
+
+
+
+.sendMeil::before {
+  content: "CONTACT";
+
+  position: absolute;
+
+  left: 25px;
+  top: 43%;
+
+  transform: translateY(-50%) rotate(180deg);
+
+  writing-mode: vertical-rl;
+
+  font-family: "Playfair Display", serif;
+
+  font-size: 100px;
+  font-weight: 400;
+
+  letter-spacing: 12px;
+
+  color: #1E1E1E;
+
+  opacity: 0.08;
+
+  pointer-events: none;
+}
+
+
+.sendForm {
+  width: 560px;
+
+  position: relative;
+
+  z-index: 2;
+
+background: rgba(246, 243, 236, 0.96);
+  padding: 55px;
+
+
+
+
+}
+
+
+
+.formHeader {
+  display: flex;
+
+  align-items: flex-end;
+
+  gap: 22px;
+
+  margin-bottom: 50px;
+}
+
+
+
+
+.formHeader span {
+  font-family: "Playfair Display", serif;
+
+  font-size: 72px;
+
+  font-weight: 400;
+
+  line-height: 0.8;
+
+  color: #660507;
+}
+
+
+
+
+.formHeader h2 {
+  margin: 0;
+
+  font-family: "Playfair Display", serif;
+
+  font-size: 30px;
+
+  font-weight: 500;
+
+  letter-spacing: 1px;
+
+  color: #1E1E1E;
+}
+
+
+
+.sendForm input,
+.sendForm textarea {
+
+  width: 100%;
+
+  padding: 16px 4px;
+
+  margin-bottom: 25px;
+
+  box-sizing: border-box;
+
+  border: none;
+
+  border-bottom: 1px solid rgba(30, 30, 30, 0.35);
+
+  background: transparent;
+
+  outline: none;
+
+  font-family: inherit;
+
+  font-size: 14px;
+
+  color: #1E1E1E;
+
+  transition: border-color 0.3s ease;
+}
+
+
+
+
+.sendForm textarea {
+
+  min-height: 130px;
+
+  resize: vertical;
+}
+
+
+
+.sendForm input::placeholder,
+.sendForm textarea::placeholder {
+
+  color: #5E5748;
+
+  font-size: 15px;
+
+  letter-spacing: 0.5px;
+}
+
+
+
+.sendForm input:focus,
+.sendForm textarea:focus {
+
+  border-bottom-color: #660507;
+}
+
+
+
+
+.sendForm button {
+
+  
+display: block;
+  width:400px ;
+  
+  padding: 15px 20px;
+  font-size: 16px;
+  
+  
+  border: none;
+   background-color: #670508;
+color: #ffffff;
+
+
+
+  
+ font-family: "Old Standard TT", serif;
+  font-weight:700;
+  font-style: normal;
+
+  
+cursor: pointer;
+
+transition: 0.35s ease; 
+ 
+  
+   
+margin:0 auto ;
+margin-top: 40px;
+
+
+}
+
+
+
+
+   
+
+
+
+
+
+.sendForm button:hover {
+
+  background: #660507;
+
+  border-color: #660507;
+}
+
+
+
+.successMessage {
+
+  margin-top: 20px;
+
+  font-size: 14px;
+
+  letter-spacing: 0.5px;
+
+  color: #660507;
+}
+
+.sendMeil {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(20, 17, 14, 0.92),
+      rgba(20, 17, 14, 0.72)
+    ),
+  
+}
+
+
+
+
+
+/* 
+   responsive — 900px
+ */
+
+@media (max-width: 900px) {
+
+  .sendMeil {
+    width: 90%;
+    min-height: auto;
+
+    padding: 70px 40px;
+
+    justify-content: center;
+  }
+
+  .sendMeil::before {
+    font-size: 75px;
+    left: 5px;
+    opacity: 0.07;
+  }
+
+  .sendForm {
+    width: 100%;
+    max-width: 560px;
+  }
+
+  .formHeader span {
+    font-size: 65px;
+  }
+
+  .formHeader h2 {
+    font-size: 27px;
+  }
+
+  .sendForm button {
+    width: 100%;
+  }
+}
+
+
+/*
+   responsive — 600px
+ */
+
+@media (max-width: 600px) {
+
+  .sendMeil {
+    width: 94%;
+
+    padding: 60px 25px;
+
+    margin: 70px auto;
+  }
+
+  .sendMeil::before {
+    font-size: 55px;
+
+    left: 0;
+
+    opacity: 0.06;
+  }
+
+  .sendForm {
+    width: 100%;
+
+    padding: 40px 30px;
+  }
+
+  .formHeader {
+    gap: 15px;
+
+    margin-bottom: 40px;
+  }
+
+  .formHeader span {
+    font-size: 52px;
+  }
+
+  .formHeader h2 {
+    font-size: 22px;
+
+    letter-spacing: 0.5px;
+  }
+
+  .sendForm input,
+  .sendForm textarea {
+    font-size: 14px;
+  }
+
+  .sendForm button {
+    width: 100%;
+
+    font-size: 15px;
+
+    margin-top: 30px;
+  }
+}
+
+
+/*
+  responsive — 480px
+ */
+
+@media (max-width: 480px) {
+
+  .sendMeil {
+    width: 96%;
+
+    padding: 50px 18px;
+
+    margin: 60px auto;
+  }
+
+  .sendMeil::before {
+    font-size: 45px;
+
+    left: -2px;
+
+    letter-spacing: 8px;
+
+    opacity: 0.055;
+  }
+
+  .sendForm {
+    width: 100%;
+
+    padding: 32px 22px;
+  }
+
+  .formHeader {
+    gap: 12px;
+
+    margin-bottom: 35px;
+  }
+
+  .formHeader span {
+    font-size: 45px;
+  }
+
+  .formHeader h2 {
+    font-size: 19px;
+
+    line-height: 1.2;
+  }
+
+  .sendForm input,
+  .sendForm textarea {
+    padding: 14px 3px;
+
+    margin-bottom: 20px;
+
+    font-size: 13px;
+  }
+
+  .sendForm textarea {
+    min-height: 110px;
+  }
+
+  .sendForm button {
+    width: 100%;
+
+    padding: 14px 15px;
+
+    font-size: 14px;
+
+    margin-top: 25px;
+  }
+}
+
+
+/* 
+  resposive — 380px
+ */
+
+@media (max-width: 380px) {
+
+  .sendMeil {
+    width: 97%;
+
+    padding: 45px 12px;
+
+    margin: 50px auto;
+  }
+
+  .sendMeil::before {
+    font-size: 38px;
+
+    left: -4px;
+
+    letter-spacing: 6px;
+
+    opacity: 0.045;
+  }
+
+  .sendForm {
+    padding: 28px 17px;
+  }
+
+  .formHeader {
+    gap: 9px;
+
+    margin-bottom: 30px;
+  }
+
+  .formHeader span {
+    font-size: 39px;
+  }
+
+  .formHeader h2 {
+    font-size: 17px;
+  }
+
+  .sendForm input,
+  .sendForm textarea {
+    font-size: 12px;
+
+    padding: 12px 2px;
+  }
+
+  .sendForm textarea {
+    min-height: 100px;
+  }
+
+  .sendForm button {
+    padding: 13px 10px;
+
+    font-size: 13px;
+  }
+}

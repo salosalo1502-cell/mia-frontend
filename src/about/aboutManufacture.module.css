@@ -1,0 +1,384 @@
+
+
+.aboutManufactureImage img,
+
+.aboutPremiumImage img,
+.aboutGlobalImage img{
+
+width: 70px;
+height: 85px;
+
+
+}
+
+.aboutManufactureTitle,
+
+.aboutPremiumTitle,
+
+.aboutGlobalTitle{
+
+width: 250px; 
+
+line-height: 1.5em; 
+
+font-size:12px ;
+
+transform: translateY(20px);
+
+
+}
+
+.aboutManufacture{
+width:1200px ;
+
+display:flex ;
+justify-content: center;
+align-items:center;
+
+margin:0 auto ;
+
+position:relative;
+
+gap:60px;
+
+
+padding-top: 40px;
+background-color: #F6F3EC;
+
+padding:40px 40px;
+box-sizing: border-box;
+}
+
+.aboutManufactureContent:not(:last-child)::after,
+.aboutPremiumContent:not(:last-child)::after{
+    content:"";
+    position:absolute;
+    right:-30px;
+    top:20%;
+    height:60%;
+    width:1px;
+    background:#670508;
+}
+
+.aboutManufactureContent,
+.aboutPremiumContent,
+.aboutGlobalContent{
+    position:relative;
+
+
+
+}
+
+
+.aboutManufactureContent,
+.aboutGlobalContent,
+.aboutPremiumContent{
+
+
+display:flex ;
+flex-direction: column;
+justify-content: center;
+
+align-items: center;
+
+gap:5px ;
+
+
+}
+.aboutManufactureTitle p,
+.aboutPremiumTitle p,
+.aboutGlobalTitle p{
+    max-width:300px;
+    font-size:13px;
+    line-height:1.8;
+    color:#333;
+}
+
+.aboutManufacture H3{
+
+text-transform:uppercase;
+
+font-size:16px;
+
+font-family: "Old Standard TT", serif;
+
+}
+
+.aboutManufactureOverlay{
+
+
+background-color:#F6F3EC;
+
+}
+
+.sakeraviManqana img{
+
+width:10px ;
+height:10px ;
+object-fit: cover;
+
+}
+
+
+@media (max-width: 1024px) {
+
+  .aboutManufacture {
+
+    width: 90%;
+
+    gap: 35px;
+
+    padding: 35px 20px;
+
+    box-sizing: border-box;
+  }
+
+
+  .aboutManufactureTitle,
+  .aboutPremiumTitle,
+  .aboutGlobalTitle {
+
+    width: 200px;
+
+    font-size: 12px;
+  }
+
+
+  .aboutManufactureImage img,
+  .aboutPremiumImage img,
+  .aboutGlobalImage img {
+
+    width: 65px;
+    height: 78px;
+  }
+
+
+  .aboutManufactureContent:not(:last-child)::after,
+  .aboutPremiumContent:not(:last-child)::after {
+
+    right: -18px;
+
+    top: 20%;
+
+    height: 60%;
+  }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+  .aboutManufacture {
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 0;
+
+    padding: 35px 20px;
+
+    box-sizing: border-box;
+  }
+
+
+  
+  .aboutManufactureContent,
+  .aboutPremiumContent,
+  .aboutGlobalContent {
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 7px;
+
+    padding: 25px 10px;
+
+    box-sizing: border-box;
+  }
+
+
+  
+  .aboutManufactureImage img,
+  .aboutPremiumImage img,
+  .aboutGlobalImage img {
+
+    width: 55px;
+
+    height: 65px;
+
+    object-fit: contain;
+  }
+
+
+  .aboutManufactureTitle,
+  .aboutPremiumTitle,
+  .aboutGlobalTitle {
+
+    width: 100%;
+
+    max-width: 300px;
+
+    font-size: 12px;
+
+    line-height: 1.6em;
+
+    text-align: center;
+
+    transform: none;
+  }
+
+
+
+  .aboutManufactureTitle p,
+  .aboutPremiumTitle p,
+  .aboutGlobalTitle p {
+
+    width: 100%;
+
+    max-width: 300px;
+
+    font-size: 12px;
+
+    line-height: 1.7em;
+
+    text-align: center;
+
+    margin: 0 auto;
+  }
+
+
+
+  .aboutManufacture h3 {
+
+    font-size: 15px;
+
+    text-align: center;
+
+    line-height: 1.3em;
+  }
+
+
+
+  .aboutManufactureContent:not(:last-child)::after,
+  .aboutPremiumContent:not(:last-child)::after {
+
+    right: auto;
+
+    top: auto;
+
+    bottom: 0;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 60px;
+
+    height: 1px;
+
+    background: #670508;
+  }
+
+
+
+  .sakeraviManqana img {
+
+    width: 8px;
+
+    height: 8px;
+  }
+
+}
+
+
+
+@media (max-width: 480px) {
+
+  .aboutManufacture {
+
+    padding: 25px 12px;
+  }
+
+
+  .aboutManufactureContent,
+  .aboutPremiumContent,
+  .aboutGlobalContent {
+
+    padding: 22px 8px;
+
+    gap: 6px;
+  }
+
+
+  .aboutManufactureImage img,
+  .aboutPremiumImage img,
+  .aboutGlobalImage img {
+
+    width: 45px;
+
+    height: 55px;
+  }
+
+
+  .aboutManufactureTitle,
+  .aboutPremiumTitle,
+  .aboutGlobalTitle {
+
+    max-width: 280px;
+
+    font-size: 11px;
+
+    line-height: 1.6em;
+  }
+
+
+  .aboutManufactureTitle p,
+  .aboutPremiumTitle p,
+  .aboutGlobalTitle p {
+
+    max-width: 280px;
+
+    font-size: 11px;
+
+    line-height: 1.7em;
+  }
+
+
+  .aboutManufacture h3 {
+
+    font-size: 14px;
+  }
+
+
+  .aboutManufactureContent:not(:last-child)::after,
+  .aboutPremiumContent:not(:last-child)::after {
+
+    width: 50px;
+
+    height: 1px;
+  }
+
+
+  .sakeraviManqana img {
+
+    width: 7px;
+
+    height: 7px;
+  }
+
+}
