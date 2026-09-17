@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+ MIA — Fashion & Textile E-commerce Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive e-commerce website created for a premium fashion and textile brand.
 
-## Available Scripts
+The project combines a clean editorial-style visual design with full e-commerce functionality, allowing users to browse men's and women's collections, explore individual products, add items to a shopping cart, and complete the checkout process.
 
-In the project directory, you can run:
+ Live Demo
 
-### `npm start`
+[View Live Website](https://bright-faun-f74ee9.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ Technologies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* React
+* React Router
+* CSS
+* Node.js
+* Express.js
+* MongoDB
+* REST API
+* Netlify
+* Render
 
-### `npm test`
+ Key Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Responsive desktop, tablet and mobile design
+* Men's and women's collections
+* Category-based product browsing
+* Individual product detail pages
+* Shopping cart functionality
+* Checkout functionality
+* REST API integration
+* MongoDB database
+* Contact and email functionality
+* Frontend and backend deployment
 
-### `npm run build`
+ My Role
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Designed and developed the frontend, responsive layouts and navigation, implemented product browsing and shopping-cart functionality, integrated the frontend with the backend REST API and MongoDB database, and deployed the application to production.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="1357" height="568" alt="mia-home-desktop - Copy" src="https://github.com/user-attachments/assets/768003fd-d505-4611-927e-c15ae48aec97" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ Collection
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="846" height="618" alt="{56B89296-E5E5-4822-8555-D15204CC256B}" src="https://github.com/user-attachments/assets/b9854df6-9c10-4fd9-9bea-f13ffa2059df" />
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ Product Detail
 
-### Analyzing the Bundle Size
+<img width="1536" height="2780" alt="suits(iPad Mini)" src="https://github.com/user-attachments/assets/c40ea432-07cf-4431-b019-d735cedfe22d" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Shopping Cart / Checkout
+<img width="1536" height="2780" alt="suits(iPad Mini)" src="https://github.com/user-attachments/assets/9020b4dc-1639-493a-8685-447ba13c3247" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# MIA — მოდის და ტექსტილის E-commerce ვებსაიტი
 
-### Deployment
+თანამედროვე, რესპონსიული ონლაინ-მაღაზიის ვებსაიტი, შექმნილი პრემიუმ მოდისა და ტექსტილის ბრენდისთვის.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+პროექტი აერთიანებს სუფთა, editorial სტილის ვიზუალურ დიზაინს სრულფასოვან E-commerce ფუნქციონალთან. მომხმარებელს შეუძლია დაათვალიეროს მამაკაცისა და ქალის კოლექციები, ნახოს ინდივიდუალური პროდუქტები, დაამატოს ნივთები კალათაში და გაიაროს შეკვეთის პროცესი.
 
-### `npm run build` fails to minify
+## ტექნოლოგიები
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* React
+* React Router
+* CSS
+* Node.js
+* Express.js
+* MongoDB
+* REST API
+* Netlify
+* Render
+
+ ძირითადი ფუნქციები
+
+* რესპონსიული დიზაინი Desktop, Tablet და Mobile მოწყობილობებისთვის
+* მამაკაცისა და ქალის კოლექციები
+* პროდუქტების კატეგორიების მიხედვით დათვალიერება
+* ინდივიდუალური პროდუქტის გვერდები
+* Shopping Cart ფუნქციონალი
+* Checkout ფუნქციონალი
+* REST API ინტეგრაცია
+* MongoDB მონაცემთა ბაზა
+* Contact და Email ფუნქციონალი
+* Frontend და Backend-ის Production Deployment
+
+## ჩემი როლი
+
+დავაპროექტე და განვავითარე Frontend, რესპონსიული Layout-ები და ნავიგაცია, განვახორციელე პროდუქტების დათვალიერებისა და Shopping Cart-ის ფუნქციონალი, დავაკავშირე Frontend Backend REST API-სა და MongoDB-სთან და განვახორციელე პროექტის Production Deployment.
+
+
+
+
