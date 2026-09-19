@@ -37,7 +37,6 @@ The project combines a clean editorial-style visual design with full e-commerce 
 
 Designed and developed the frontend, responsive layouts and navigation, implemented product browsing and shopping-cart functionality, integrated the frontend with the backend REST API and MongoDB database, and deployed the application to production.
 
-<img width="1357" height="568" alt="mia-home-desktop - Copy" src="https://github.com/user-attachments/assets/768003fd-d505-4611-927e-c15ae48aec97" />
 
 
 
@@ -46,18 +45,11 @@ Designed and developed the frontend, responsive layouts and navigation, implemen
 
 
 
- Collection
-
-<img width="846" height="618" alt="{56B89296-E5E5-4822-8555-D15204CC256B}" src="https://github.com/user-attachments/assets/b9854df6-9c10-4fd9-9bea-f13ffa2059df" />
 
 
- Product Detail
-
-<img width="1536" height="2780" alt="suits(iPad Mini)" src="https://github.com/user-attachments/assets/c40ea432-07cf-4431-b019-d735cedfe22d" />
 
 
-Shopping Cart / Checkout
-<img width="1536" height="2780" alt="suits(iPad Mini)" src="https://github.com/user-attachments/assets/9020b4dc-1639-493a-8685-447ba13c3247" />
+
 
 
 
