@@ -211,6 +211,13 @@
 
   color: #111;
 }
+.image {
+  width: 90px;
+  height: 110px;
+  object-fit: cover;
+  display: block;
+  flex-shrink: 0;
+}
 
 
 /* mobile*/
